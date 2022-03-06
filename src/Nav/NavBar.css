@@ -1,0 +1,70 @@
+:root {
+  --colorPrimary: #e7ff2c;
+  --bckGrnd: #322f2f;
+  --textColor: #ffffff;
+}
+
+.burg {
+  width: 100px;
+  height: 100px;
+  background-color: var(--colorPrimary);
+  display: grid;
+  place-items: center;
+  border-radius: 0 0 10px 0px;
+}
+
+.nav--title--hed {
+  font-size: 32px;
+  letter-spacing: 5px;
+  font-family: "Audiowide", cursive;
+  display: inherit;
+  margin: 0rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  padding-left: 1rem;
+  text-decoration: none;
+}
+.nav--title--hed a {
+  color: var(--colorPrimary);
+  text-decoration: none;
+}
+
+.nav--srch--srch {
+  border-radius: 5px;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid var(--colorPrimary);
+  background-color: inherit;
+  width: 15rem;
+}
+
+.nav--select--select {
+  display: block;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  background-color: inherit;
+}
+.nav--select--select > option {
+  color: black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navBar {
+  grid-area: n;
+}
+.nav--select {
+  display: flex;
+}
+.nav--srch {
+  display: flex;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}

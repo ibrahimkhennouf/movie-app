@@ -1,0 +1,29 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown .btn {
+  background-color: transparent;
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  /* outline: none; */
+  offset: 0;
+}
+
+.dropdown .options {
+  position: absolute;
+  right: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 8em;
+  padding: 1rem;
+  list-style-type: none;
+}
+
+.dropdown .options a {
+  color: var(--bg-color);
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+:root {
+  --colorPrimary: #e7ff2c;
+  --bckGrnd: #322f2f;
+  --textColor: #ffffff;
+}
+
+.burg {
+  width: 100px;
+  height: 100px;
+  background-color: var(--colorPrimary);
+  display: grid;
+  place-items: center;
+  border-radius: 0 0 10px 0px;
+}
+aside {
+  height: 80%;
+}
+.aside--List {
+  list-style: none;
+  padding-left: 0;
+  color: var(--textColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 6rem;
+}
+
+.aside--List li {
+  padding: 0 0 0 1rem;
+  cursor: pointer;
+}
+
+.aside--List li:hover {
+  color: var(--colorPrimary);
+}
+
+.sideBar {
+  grid-area: s;
+}
