@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState } from "react";
 import { movies as Movies } from "./Movies";
 export let MoviesContext = createContext();
 export let MoviesProvider = ({ children }) => {

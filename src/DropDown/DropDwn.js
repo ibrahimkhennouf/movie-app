@@ -1,11 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "./Dropdown.css";
 
 export default function Dropdown({ options, title }) {
   const [open, setOpen] = useState(false);
   const dropDown = useRef();
 
-  const close = () => setOpen(false);
+  // const close = () => setOpen(false);
 
   // useEffect(() => {
   //   window.addEventListener("click", (e) => {
